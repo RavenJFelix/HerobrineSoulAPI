@@ -1,4 +1,4 @@
-package soul.util.commands;
+package herobrinesoul.commands;
 
 public interface Cancellable
 {

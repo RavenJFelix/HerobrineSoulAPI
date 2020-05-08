@@ -1,4 +1,4 @@
-package soul.util.commands;
+package herobrinesoul.commands;
 
 import java.util.LinkedList;
 public class QuotedTokenizer

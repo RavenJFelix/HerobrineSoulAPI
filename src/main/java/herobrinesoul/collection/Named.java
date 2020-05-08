@@ -1,4 +1,4 @@
-package soul.util.collection;
+package herobrinesoul.collection;
 public interface Named
 {
 	public String getName();

@@ -1,6 +1,6 @@
 package herobrinesoul.commands;
 
-import soul.util.collection.Named;
+import herobrinesoul.collection.Named;
 
 public interface Command extends Named
 {

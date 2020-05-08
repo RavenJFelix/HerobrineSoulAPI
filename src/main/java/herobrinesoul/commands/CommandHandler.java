@@ -1,8 +1,8 @@
 package herobrinesoul.commands;
 
-import soul.util.collection.NameRegistry;
+import herobrinesoul.collection.NameRegistry;
 
-import soul.util.commands.Command;
+import herobrinesoul.commands.Command;
 
 import java.util.StringTokenizer;
 public class CommandHandler

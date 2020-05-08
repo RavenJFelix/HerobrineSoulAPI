@@ -25,61 +25,10 @@ group = 'com.github.RavenJFelix'
 minecraft
 {
 	mappings channel: 'snapshot', version: '20190719-1.14.3'
-    runs {
-        client {
-            workingDirectory project.file('run')
-
-            // Recommended logging data for a userdev environment
-            property 'forge.logging.markers', 'SCAN,REGISTRIES,REGISTRYDUMP'
-
-            // Recommended logging level for the console
-            property 'forge.logging.console.level', 'debug'
-
-            mods {
-                souclientmod {
-                    source sourceSets.main
-                }
-            }
-        }
-
-        server {
-            workingDirectory project.file('run')
-
-            // Recommended logging data for a userdev environment
-            property 'forge.logging.markers', 'SCAN,REGISTRIES,REGISTRYDUMP'
-
-            // Recommended logging level for the console
-            property 'forge.logging.console.level', 'debug'
-
-            mods {
-                soulclientmod {
-                    source sourceSets.main
-                }
-            }
-        }
-
-        data {
-            workingDirectory project.file('run')
-
-            // Recommended logging data for a userdev environment
-            property 'forge.logging.markers', 'SCAN,REGISTRIES,REGISTRYDUMP'
-
-            // Recommended logging level for the console
-            property 'forge.logging.console.level', 'debug'
-
-            args '--mod', 'souclientmod', '--all', '--output', file('src/generated/resources/')
-
-            mods {
-                soulclientmod {
-                    source sourceSets.main
-                }
-            }
-        }
-    }
-
 }
 
-dependencies {
+dependencies 
+{
 	// This dependency is exported to consumers, that is to say found on their compile classpath.
 	minecraft 'net.minecraftforge:forge:1.15.2-31.1.0'
 	//api 'org.apache.commons:commons-math3:3.6.1'

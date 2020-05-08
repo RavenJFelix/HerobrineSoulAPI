@@ -1,7 +1,7 @@
-package soul.util.collection;
+package herobrinesoul.collection;
 
 
-import soul.util.collection.Named;
+import herobrinesoul.collection.Named;
 
 import java.util.HashMap;
 import java.util.ArrayList;

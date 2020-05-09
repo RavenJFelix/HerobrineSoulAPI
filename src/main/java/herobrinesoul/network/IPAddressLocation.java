@@ -1,4 +1,4 @@
-package soul.util.network;
+package herobrinesoul.network;
 
 public class IPAddressLocation
 {
